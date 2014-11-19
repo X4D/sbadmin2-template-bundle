@@ -1,0 +1,28 @@
+{
+    "name": "sergiuszm/sbadmin2-template-bundle",
+    "type": "library",
+    "description": "Symfony2 Bundle for Start Bootstrap SB Admin 2 Template",
+    "keywords": ["template", "admin"],
+    "homepage": "https://github.com/sergiuszm/sbadmin2-template-bundle",
+    "license": "Apache License v 2.0",
+    "authors": [
+        {
+            "name": "Start Bootstrap",
+            "homepage": "http://startbootstrap.com/",
+            "role": "Developer"
+        },
+        {
+            "name": "Sergiusz M",
+            "homepage": "https://github.com/sergiuszm",
+            "role": "Bundle maintainer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "symfony/framework-bundle": "2.5.*"
+    },
+    "autoload": {
+        "psr-0": { "Rednode\\SBAdmin2Bundle": "" }
+    },
+    "target-dir" : "Rednode/SBAdmin2Bundle"
+}

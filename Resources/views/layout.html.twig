@@ -1,0 +1,15 @@
+{% extends '@RednodeSBAdmin2/base.html.twig' %}
+
+{% block body %}
+    {% block navigation_block %}
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            {% block navigation %}{% endblock %}
+        </nav>
+    {% endblock %}
+
+    {% block page_wrapper %}
+        <div id="page-wrapper">
+            {% block content %}{% endblock %}
+        </div>
+    {% endblock %}
+{% endblock %}

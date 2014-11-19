@@ -868,3 +868,25 @@
     </div>
     <!-- /.row -->
 {% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {% stylesheets
+    '@X4DSBAdmin2Bundle/Resources/public/css/plugins/timeline.css'
+    '@X4DSBAdmin2Bundle/Resources/public/css/plugins/morris.css'
+    output='css/*.css' filter='cssrewrite' %}
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ asset_url }}" />
+    {% endstylesheets %}
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% javascripts
+    '@X4DSBAdmin2Bundle/Resources/public/js/plugins/morris/raphael.min.js'
+    '@X4DSBAdmin2Bundle/Resources/public/js/plugins/morris/morris.min.js'
+    '@X4DSBAdmin2Bundle/Resources/public/js/plugins/morris/morris-data.js'
+    %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rednode\SBAdmin2Bundle\DependencyInjection;
+namespace X4D\SBAdmin2Bundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('rednode_sbadmin2');
+        $rootNode = $treeBuilder->root('x4d_sbadmin2');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for

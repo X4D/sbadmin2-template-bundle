@@ -1,6 +1,6 @@
 <?php
 
-namespace Rednode\SBAdmin2Bundle\DependencyInjection;
+namespace X4D\SBAdmin2Bundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class RednodeSBAdmin2Extension extends Extension
+class X4DSBAdmin2Extension extends Extension
 {
     /**
      * {@inheritdoc}

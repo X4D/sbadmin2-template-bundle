@@ -22,7 +22,7 @@
         "symfony/framework-bundle": "2.5.*"
     },
     "autoload": {
-        "psr-0": { "Rednode\\SBAdmin2Bundle": "" }
+        "psr-0": { "X4D\\SBAdmin2Bundle": "" }
     },
-    "target-dir" : "Rednode/SBAdmin2Bundle"
+    "target-dir" : "X4D/SBAdmin2Bundle"
 }
